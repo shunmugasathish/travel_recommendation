@@ -120,7 +120,7 @@ body {
     width: 300px;
     display: flex;
     flex-direction: column;
-    margin-left:500px;
+    margin-left:600px;
   }
   
   .contact input, .contact textarea {
