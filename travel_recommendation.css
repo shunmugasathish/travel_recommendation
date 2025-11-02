@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url('https://img2.wallspic.com/crops/7/2/2/9/99227/99227-natural_landscape-arrangement-tourism-turquoise-vacation-3840x2160.jpg') no-repeat center center/cover;
+  color: white;
+  width:100vw;
+  height:100vh;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.navbar input {
+  padding: 6px;
+}
+
+.home, .about, .contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#results {
+  margin-top: 30px;
+}
+
+.result-card {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 250px;
+}
+.result-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Social media icons on the left */
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background: teal;
+  }
+  
+  /* Book Now button */
+  .book-btn {
+    background-color: #009688;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .book-btn:hover {
+    background-color: #00796b;
+  }
+  
+  /* Make all main sections full-screen */
+.full-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* About Page Styling */
+  .about ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .about li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  /* Contact Page Styling */
+  .contact form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left:500px;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .contact button {
+    margin-top: 15px;
+    background-color: #009688;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #00796b;
+  }
+  
